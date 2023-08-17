@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.848 s <<< FAILURE! - in TestSuite
+com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist  Time elapsed: 0.148 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Playlist
+
+	at com.spotify.oauth2.tests.PlaylistTests.playlistBuilder(PlaylistTests.java:71)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist(PlaylistTests.java:37)
+
+com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithName  Time elapsed: 0.232 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Playlist
+
+	at com.spotify.oauth2.tests.PlaylistTests.playlistBuilder(PlaylistTests.java:71)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithName(PlaylistTests.java:53)
+
+com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithExpiredToken  Time elapsed: 0.24 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Playlist
+
+	at com.spotify.oauth2.tests.PlaylistTests.playlistBuilder(PlaylistTests.java:71)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithExpiredToken(PlaylistTests.java:63)
+
+com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToUpdateAPlaylist  Time elapsed: 0.241 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Playlist
+
+	at com.spotify.oauth2.tests.PlaylistTests.playlistBuilder(PlaylistTests.java:71)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToUpdateAPlaylist(PlaylistTests.java:45)
+
+com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreateAPlaylist  Time elapsed: 0.244 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method builder() is undefined for the type Playlist
+
+	at com.spotify.oauth2.tests.PlaylistTests.playlistBuilder(PlaylistTests.java:71)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreateAPlaylist(PlaylistTests.java:29)
+
